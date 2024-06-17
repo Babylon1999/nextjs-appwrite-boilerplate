@@ -11,10 +11,6 @@ Features:
 - Protected dashboard page
 
 
-
-https://github.com/Babylon1999/nextjs-appwrite-boilerplate/assets/67080558/3842aadf-4a2c-4efb-b9d0-159693b913e0
-
-
 ## How to Use
 
 ### Install dependencies
