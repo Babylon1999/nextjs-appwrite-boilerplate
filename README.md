@@ -1,6 +1,6 @@
-# Next.js & NextUI Template & Appwrite
+# Next.js & NextUI Template with Appwrite Integration
 
-A simple Nextjs boilerplate that uses NextUI and Appwrite as backend. This is mostly meant for experimenting/testing ideas.
+A simple Nextjs boilerplate that uses NextUI and Appwrite as the backend.  It's designed primarily for experimentation and testing new ideas.
 
 Features:
 
@@ -9,8 +9,6 @@ Features:
 - Gravatar integration for user avatars
 - Account Page with password update form
 - Protected dashboard page
-
-
 
 
 
@@ -36,7 +34,7 @@ APPWRITE_PROJECT=
 WEBSITE_URL= for example http://localhost:3000
 ```
 
-You can find step-by-step instructions on how to retrieve these keys in the appwrite docs: https://appwrite.io/docs/tutorials/nextjs-ssr-auth/step-3
+You can find step-by-step instructions on how to retrieve these keys in the Appwrite docs: https://appwrite.io/docs/tutorials/nextjs-ssr-auth/step-3
 
 ### Run the development server
 
