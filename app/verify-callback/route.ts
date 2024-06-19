@@ -1,4 +1,4 @@
-import { createSessionForVerify } from "@/utils/server/appwrite";
+import { VerifyUserEmailLink } from "@/utils/server/appwrite";
 import { NextResponse } from "next/server";
 import { NextRequest } from "next/server";
 export async function GET(request: NextRequest) {
@@ -7,7 +7,7 @@ export async function GET(request: NextRequest) {
 
   if (UserID !== null && secret !== null) {
     try {
-      await createSessionForVerify(UserID, secret);
+      await VerifyUserEmailLink(UserID, secret);
       return NextResponse.redirect(
         new URL("/login?message=Account+Verified", request.url),
       );

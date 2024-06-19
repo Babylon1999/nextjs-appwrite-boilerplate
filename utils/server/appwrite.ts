@@ -49,7 +49,7 @@ export async function createNewClient() {
   };
 }
 
-export async function createSessionForVerify(userID: string, secret: string) {
+export async function VerifyUserEmailLink(userID: string, secret: string) {
   "use server";
   const { account } = await createNewClient();
   await account.updateVerification(userID, secret);
